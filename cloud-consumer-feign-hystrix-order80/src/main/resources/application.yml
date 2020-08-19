@@ -1,0 +1,14 @@
+server:
+  port: 81
+
+eureka:
+  client:
+    fetch-registry: true
+    service-url:
+      #单机版
+      defaultZone: http://eureka7001.com:7001/eureka
+
+#在Feign开启Hystrix
+feign:
+  hystrix:
+    enabled: true

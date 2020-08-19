@@ -1,0 +1,8 @@
+#bootstrap优先级高于application
+# nacos 注册配置
+spring:
+  profiles:
+    active: dev  #开发环境
+    #配置是什么就加载什么  手动修改
+    #active: test  #测试环境
+    #active: info
